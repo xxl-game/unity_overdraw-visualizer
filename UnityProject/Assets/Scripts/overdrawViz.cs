@@ -5,6 +5,7 @@ using UnityEngine;
 public class overdrawViz : MonoBehaviour
 {
     public Shader shader;
+
     Camera cam;
 
     int amountX;
@@ -95,7 +96,8 @@ public class overdrawViz : MonoBehaviour
 
         // Before drawing, replace all shaders with "overdraw" shader
         cam = gameObject.GetComponent<Camera>();
-        cam.SetReplacementShader(shader, "");
+        cam.SetReplacementShader(shader, "RenderType");
+
         //camera.SetReplacementShader(transparentShader, "opaqueTag");
 
     }

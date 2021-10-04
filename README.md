@@ -1,6 +1,6 @@
 # unity_overdraw-visualizer
 
-![Screenshot](overdraw_visualizer_example.PNG)
+![Screenshot](overdraw_visualizer_opaque-transparent.png)
 
 Overdraw visualization tool for unity.
 
